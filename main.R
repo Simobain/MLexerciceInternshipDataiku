@@ -8,7 +8,7 @@ library(glmnet)
 #Set a seed
 set.seed(826)
 #read data and changing level of the column to predict
-source('readAndClean.R')
+source('readAndClean .R')
 
 #Preliminary test: Let's predict that no one won over 50k
 prediction = rep(0, nrow(census_income_learn))

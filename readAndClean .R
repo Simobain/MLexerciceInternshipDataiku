@@ -1,6 +1,6 @@
 #Reading the train set
-census_income_learn <- read.csv("~/Documents/BoulotNco/UTC/Branche/GI05/Recherche de stage/Dataiku/exercice1/us_census_full/census_income_learn.csv", header=F)
-census_income_test <- read.csv("~/Documents/BoulotNco/UTC/Branche/GI05/Recherche de stage/Dataiku/exercice1/us_census_full/census_income_test.csv", header=F)
+census_income_learn <- read.csv("us_census_full/census_income_learn.csv", header=F)
+census_income_test <- read.csv("us_census_full/census_income_test.csv", header=F)
 #giving name to column [hard to find in the file]
 colnames(census_income_learn) <-c("age", "classOfWorker", "indusCode", "occupCode", "education", "wagePerHour",
                                   "enrollEduInstLastWk", "maritalStatus", "majorIndustryCode", "majorOccupationCode",
